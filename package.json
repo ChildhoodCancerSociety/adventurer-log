@@ -1,5 +1,5 @@
 {
-  "name": "ccs-web",
+  "name": "adventurer-log",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,31 +11,33 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@api.video/strapi-uploader-plugin": "^1.0.0",
-    "@offset-dev/strapi-calendar": "^0.0.10",
-    "@palmabit/strapi-app-version": "^1.1.0",
-    "@strapi/plugin-color-picker": "^4.5.6",
-    "@strapi/plugin-graphql": "^4.5.6",
-    "@strapi/plugin-i18n": "4.5.6",
-    "@strapi/plugin-seo": "^1.7.7",
-    "@strapi/plugin-users-permissions": "4.5.6",
-    "@strapi/strapi": "4.5.6",
-    "better-sqlite3": "7.4.6",
-    "strapi-plugin-comments": "^2.2.4",
-    "strapi-plugin-oembed": "^1.0.1",
-    "strapi-plugin-placeholder": "^4.3.6",
-    "strapi-plugin-sitemap": "^2.0.9"
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@strapi/plugin-color-picker": "^4.9.2",
+    "@strapi/plugin-graphql": "^4.9.2",
+    "@strapi/plugin-i18n": "4.9.2",
+    "@strapi/plugin-open-ai": "^1.0.1",
+    "@strapi/plugin-seo": "^1.8.0",
+    "@strapi/plugin-users-permissions": "4.9.2",
+    "@strapi/strapi": "4.9.2",
+    "better-sqlite3": "8.0.1",
+    "strapi-plugin-comments": "^2.2.9",
+    "strapi-plugin-config-sync": "^1.1.1",
+    "strapi-plugin-passwordless": "^4.0.9",
+    "strapi-plugin-preview-button": "^1.1.2",
+    "strapi-plugin-rest-cache": "^4.2.7",
+    "strapi-plugin-sitemap": "^2.0.9",
+    "strapi-plugin-slugify": "^2.3.2"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "5fe764b8-5d41-49de-8bfc-f2778c3d1bf4"
+    "uuid": "893201d9-e605-482d-ad68-ccf2c41f0906"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
-    "npm": ">=6.0.0",
-    "yarn": "READ: please use npm"
+    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
